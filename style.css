@@ -1,75 +1,63 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
 }
-    
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
 
 .navbar-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 2rem 8rem;
-    font-weight: 900;
+    margin: 2rem 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
 }
 
-
 .navbar-container > :nth-child(2){
-    width: 70%;
+    flex-grow: 1;
+}
+
+.navbar-container img{
+    height: 40px;
 }
     
 
 .list{
     display: flex;
     align-items: center;
-    font-size: 2rem;
-    gap: 2rem;
+    font-size: 1.2rem;
+    gap: 8px;
 }
 
     
 .list-item{
     list-style:none;
-    margin: 0 1rem;
     color: #8f8f8f;
-    display: flex;
-    position: relative;
-    margin-left: 0;
-    
-    
+    margin-left: 30px;  
  }
     
 
  .list-item:nth-child(1){
-    font: size 1.3rem;
-    font-weight: 900;
+    font: size 1.2rem;
+    font-weight: 500;
     color: #000000;
 }
 
 
-.button-group{
-    display: flex;
-    align-items: center;
-}
-
-        
-button{
-    padding: 0.5rem 3rem;
-    background-color: transparent;
-    font-size:1.1rem;
-    margin-left: 1rem;
-    border-radius: 0.8rem;
-    height: 60px;
-    
-}
-       
-
-
 
 .nav-button{
-    border: 2.5px solid #0b0000;
-    background-color: #0b03adc9;
+    padding: 1rem 2rem;
+    font-size:1rem;
+    font-weight: 550;
+    border-radius: 0.8rem;
+    background-color: #29239bc9;
     color: #ffffff;
-    margin-top: 10%;
+    border: none;
 }
 
 
@@ -78,7 +66,8 @@ button{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 5rem 0 0 7rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
 
 }
 
@@ -87,24 +76,41 @@ button{
 
 .heading-text{
     font-family: Arial, Helvetica, sans-serif;
-    padding-right: 13rem;
     font-weight: 700;
-    font-size: 6rem;
-    
+    font-size: 4rem;
+    width: 50vh;
+    color: #2d2a57;
 }
 
 
 span{
-    color: #0b03add8;
+    color: #1b13b6d8;
 }
 
 .description{
-    color: #606060;
-    font-size: 2rem;
+    color: #8f8f8f;
+    font-size: 1.3rem;
     margin-top: 5%;
-    padding-right: 17rem;
+    width: 45vh;
+    line-height: 1.8rem;
     
 }
 
+.banner-container img{
+    position: relative;
+    margin-right: 0px;
+    width: 48rem;
+}
 
+
+.banner-container button{
+    margin-top: 5rem;
+    padding: 1.7rem 3rem;
+    font-size:1.1rem;
+    font-weight: 550;
+    border-radius: 0.8rem;
+    background-color: #29239bc9;
+    color: #ffffff;
+    border: none;
+}
 
